@@ -15,7 +15,7 @@
                     <td> {{product.productName}} </td>
                     <td> {{product.unitPerCarton}} </td>
                     <td> {{product.pricePerCarton}} </td>
-                    <td> {{product.pricePerCarton / product.unitPerCarton}} </td>
+                    <td> {{product.unitPrice}} </td>
                     <td> {{product.pricePerFifty}} </td>
                 </tr>
             </tbody>
