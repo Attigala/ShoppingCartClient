@@ -1,10 +1,11 @@
 <template>
     <div>
-        <label> Product Name </label>
+        <label> Product Name  &nbsp;</label>
         <input v-model="productname" >
-        <label> Quantity </label>
-        <input v-model="productquantity" >
-        <button @click = "calculate"> Check Price </button>
+        &nbsp;&nbsp;  
+        <label> Quantity &nbsp; </label> 
+        <input v-model="productquantity" > <br/> <br/> 
+        <button class ="btn btn-dark" @click = "calculate"> Check Price </button>
     </div>
     <div class="priceView">
         {{price}}

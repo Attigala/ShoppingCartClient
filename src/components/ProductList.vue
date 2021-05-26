@@ -16,7 +16,7 @@
                     <td> {{product.unitPerCarton}} </td>
                     <td> {{product.pricePerCarton}} </td>
                     <td> {{product.pricePerCarton / product.unitPerCarton}} </td>
-                    <td> {{product.pricePerCarton / product.unitPerCarton * 50}} </td>
+                    <td> {{product.pricePerFifty}} </td>
                 </tr>
             </tbody>
         </table>
